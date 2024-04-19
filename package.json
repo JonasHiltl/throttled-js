@@ -1,0 +1,19 @@
+{
+  "name": "@throttled/js",
+  "version": "0.0.0",
+  "description": "The throttled.dev javascript SDK",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "files": ["./dist/**"],
+  "author": "Jonas Hiltl <jonas@throttled.dev>",
+  "license": "MIT",
+  "keywords": ["throttled", "ratelimit", "quota", "usage-metering"],
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
